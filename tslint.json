@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint-config-airbnb",
+    "tslint-config-prettier",
+    "tslint-react"
+  ],
+  "rules": {
+    "arrow-return-shorthand": [true, "multiline"]
+  },
+  "rulesDirectory": ["./tslint-rules/"]
+}
